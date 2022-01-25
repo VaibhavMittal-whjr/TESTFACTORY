@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+body{
+    text-align: center;
+    padding-top: 130px;
+    background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(IMG_2642.JPG) ;
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-size:cover;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    top:10px;
+    position:fixed;
+    z-index: 10;
+    cursor:pointer;
+    width: 100%;
+}
+ul li{
+    display:inline-block;
+     font-size: 23px;
+}
+ul li a{   
+text-decoration: none;
+color:rgb(143, 203, 255) ;    
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+ul li a:hover{
+    text-decoration: underline;
+    background-color: #fff;
+    color:rgb(252, 205, 144);
+    font-weight: bold;
+}
+#logo{
+    width: 85px;
+    height: auto;
+float: left;
+z-index: 10;
+margin-top: -140px;
+}
+.main{
+
+margin: auto;
+}
+.title{
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.title h1{
+    margin-top: -200;
+    color:#6cff32;
+    font-size: 50px;
+    width: 100%;
+}
+#cattle{
+    color: violet;
+    font-size: 40px;
+padding-top: 400px;
+}
+#contact{
+    padding-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(2back.jpg) ;
+    background-size: cover;
+    background-position:center;
+}
+#welcome{
+    padding-bottom: 450px;
+}
+#heading_cont{
+    color:crimson;
+    font-size: 35px;
+    font-weight: bold;
+}
+#no{
+    padding-top:40px;
+    font-size: 27px;
+    color: darkmagenta;  
+}
+.location{
+    padding-top: 20px;
+    color: deeppink;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+#work{
+    padding-top: 30px;
+    background-color: deepskyblue;
+    padding-bottom: 60px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(storeback.jpg) ;
+}
+#heading{
+    padding-top: 20px;
+    color:lightseagreen;
+}
+#store{
+color:rgb(250, 31, 151);
+font-size: 35px;
+padding-top: 30px;
+}
+hr{
+    height:6px;
+    background-color:black;
+    width:330px;
+    margin:8px auto;
+}
+
+#category{
+    font-size: 30px;
+color:rgb(253, 229, 9)
+}
+.contact_1 h3{
+    display:inline;
+    text-decoration: none;
+    color: lawngreen;
+    font-size: 20px;
+}
+#contact iframe{
+    width: 90%;
+}
+.contact_1{
+    padding-top: 30px;
+    text-decoration: none;
+}
+#contact a{
+    text-shadow: none !important;
+    color:lawngreen !important;
+}
+#myCarousel{
+    background-color:cadetblue;
+    padding-bottom:40px ;
+    padding-left:70px ;
+    padding-right:70px ;
+    padding-top: 20px;
+}
+#myCarousel img{
+  height:620px;
+    width:900px;
+}
+.gallery{
+    font-weight: bold;
+    font-size: 40px;
+    color: darkblue;
+    padding-bottom: 30px;
+}
